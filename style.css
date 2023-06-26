@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.15s;
+    
+}
+body{
+    height: 1650px;
+}
+.heading{
+   display: flex;
+  
+} 
+
+.logo1{
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+}
+
+
+.nav ul{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.btn1{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: row;
+}
+
+.para{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    /* display: block; */
+    margin-top: 70px;
+    padding-left: 50px;
+}
+.rside{
+    width: 450px;
+    height: 450px;
+}
+.btn2{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+#bt1{
+    height: 44px;
+    width: 150px;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    margin-left: 50px;
+}
+#bt2{
+    height: 44px;
+    width: 150px;
+    margin-left: 30px;
+    background-color: blue;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+}
+.rside{
+    margin-left: 1000px;
+    position: absolute;
+    top: 180px;
+    
+}
+.comp{
+    background-color: rgba(237, 208, 242, 0.508);
+    margin-top: 90px;
+    height: 200px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.li2{
+    font-size: 50px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-top: 87px;
+    
+}
+.li2 li{
+    cursor: pointer;
+}
+.big1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+.big1 h4{
+    color: orange;
+}
+.pag2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.para1{
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 90px;
+}
+.fot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.fot>div{
+    background-color: rgb(141, 214, 214);
+    border-radius: 15px;
+    width: 400px;
+    height: 300px;
+    margin-right: 50px;
+    margin-left: 50px;
+    /* text-align: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.fot>div h3{
+    font-size: 30px;
+    padding-left: 10px;
+    
+    
+}
+.fot>div img{
+    width: 60px;
+    height: 60px;
+    padding-left: 20px;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.fot>div p{
+    font-size: 20px;
+    padding-left: 10px;
+    
+}
+.fot>div h4{
+    margin-top: 50px;
+    margin-left: 10px;
+    color: blue;
+    cursor: pointer;
+}
+
+.fot div{
+    box-shadow: 7px 6px 20px black;
+}
+
+.nav ul>ol:hover{
+    color: rgb(46, 58, 199);
+    cursor: pointer;
+    border-bottom: solid 2px rgb(164, 12, 240);
+}
+
+.btn1:hover{
+    background-color: rgba(65, 65, 244, 0.748);
+    
+     
+}
+#bt1:hover{
+    background-color: rgba(65, 65, 244, 0.748);
+}
+#bt2:hover{
+    background-color: rgba(65, 65, 244, 0.748);
+}
+
+#bt1:hover {
+    animation: scale 1s forwards;
+  }
+  
+  /* Keyframes */
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+  #bt2:hover {
+    animation: scale 1s forwards;
+  }
+  
+  /* Keyframes */
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+
+.btn1:hover {
+    animation: scale 0.5s forwards;
+  }
+  
+  /* Keyframes */
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+  }
+.li2>li:hover{
+    color: rgba(235, 30, 30, 0.797);
+    border-bottom: solid 4px rgba(203, 26, 203, 0.67);
+    cursor: grab;
+}
